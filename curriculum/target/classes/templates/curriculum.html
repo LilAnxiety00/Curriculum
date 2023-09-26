@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo1">
+            <img src="../images/foto-perfil.jpeg" alt="">
+
+            <h1 th:text="${nome}">Larissa Silva</h1>
+            <h2 th:text="${profissao}">Programadora Front-end</h2>
+
+            <div class="idiomas">
+                <ul>
+                    <li>
+                        <p th:text="${ingles}" th:remove="tag"></p>
+                        <span th:text="${inglesAP}"></span>
+                    </li>
+                    <li>
+                        <p th:text="${frances}" th:remove="tag"></p>
+                        <span th:text="${francesAP}"></span>
+                    </li>
+                    <li>
+                        <p th:text="${espanhol}" th:remove="tag"></p>
+                        <span th:text="${espanholAP}"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <h2 th:text="${email}" th:remove="tag"></h2>
+
+            <div class="redes-sociais">
+                <a href="https://github.com/LilAnxiety00"><i class='bx bxl-github bx-lg'></i></a>
+                <a href=""><i class='bx bxl-linkedin-square bx-lg' ></i></a>
+                <a href="https://instagram.com/lariisiilv?igshid=MzRlODBiNWFlZA=="><i class='bx bxl-instagram bx-lg' ></i></a>
+            </div>
+        </div>
+        <div class="conteudo2">
+            <div class="sobre">
+                <h1>Sobre Mim</h1>
+                <p th:text="${resumo}"></p>
+            </div>
+            <div class="experiencias">
+                <div class="escolas">
+                    <h2>Ensino</h2>
+                    <p th:text="${em}"></p>
+                    <h4 th:text="${emn}"></h4>
+                    <h3 th:text="${senai}"></h3>
+                    <ul>
+                        <li>
+                            <h4 th:text="${admNome}"></h2>
+                        </li>
+                        <li>
+                            <h4 th:text="${ecoNome}"></h2>
+                        </li>
+                        <li>
+                            <h4 th:text="${transNome}"></h2>
+                        </li>
+                    </ul>
+                    <h4 th:text="${senacNome}"></h4>
+
+                </div>
+                <div class="trabalhos">
+                    <h2>Experiencias</h2>
+                    <h3 th:text="${aecNome}"></h3>
+                    <p th:text="${aecResumo}"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

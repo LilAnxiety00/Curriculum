@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.container{
+    margin-left: 2vw;
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo1{
+    width: 30%;
+    text-align: center;
+    margin-top: 2vh;
+    background-color: rgb(81, 65, 223);
+    border-radius: 15px;
+    height: 90vh;
+}
+
+.conteudo1 h3{
+    margin-bottom: 0;
+    margin-top: 6vh;
+    
+}
+
+.conteudo1 ul{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    list-style: none;
+}
+
+.conteudo1 li{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo2{
+    background-color: rgb(81, 65, 223);
+    margin-top: 2vh;
+    margin-left: 3vw;
+    margin-right: 2vw;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.conteudo2 p{
+    margin-right: 5vh;
+    font-size: 1.1rem;
+}
+
+.sobre{
+    margin-left: 3vw;
+}
+
+.conteudo1 img{
+    width: 10vw;
+    margin-top: 3vh;
+    height: 20vh;
+    border-radius: 100px;
+}
+
+.redes-sociais i{
+    color: white;
+    padding: 2vw;
+    margin-top: 2vh;
+}
+
+.experiencias{
+    margin-left: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.escolas{
+    max-width: 28vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.escolas h4{
+    margin: 0;
+}
+
+.escolas h3{
+    margin-bottom: 1vh;
+}
+
+.escolas ul{
+    list-style: none;
+    margin-top: 1vh;
+}
+
+.trabalhos{
+    max-width: 30vw;
+    margin-left: 2vw;
+}
+
+.trabalhos p{
+    font-size: 1rem;
+}
